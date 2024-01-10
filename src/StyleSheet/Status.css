@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float:inline-start;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column2 {
+    float:inline-start;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    
+   
+    clear: both;
+  }
+.status-table{
+ 
+margin-left: 10px;
+  
+}
+.boder1
+{
+  border: 3px solid black;
+  margin-top: 100px;
+  margin-bottom: 2000px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}

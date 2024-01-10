@@ -1,0 +1,28 @@
+.container
+{
+    display :contents;
+}
+.btncreate
+{
+    color: white;
+    border-color: limegreen;
+    margin: 10px;
+    padding: 5px;
+   background-color: limegreen;
+}
+.btncreate:hover
+{
+   background-color: greenyellow;
+}
+.btnback
+{
+    color: white;
+    border-color: lightskyblue;
+    margin: 10px;
+    padding: 5px;
+   background-color: lightskyblue;
+}
+.btnback:hover
+{
+   background-color: lightblue;
+}
